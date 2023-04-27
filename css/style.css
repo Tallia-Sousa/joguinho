@@ -1,0 +1,51 @@
+
+body{
+	text-align: center;
+}
+
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.square{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	border: 1px solid #f5f5f5;
+	display: inline-block;
+}
+.o{
+	position: relative;
+}
+/* tava pegando o posicionamento do body pra 
+arrumar usar o posicionamento relativo */
+.o:after{
+	content: "🛡️";
+	font-size: 50px;
+	line-height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+
+}
+.x{
+	position: relative;
+}
+/* tava pegando o posicionamento do body pra 
+arrumar usar o posicionamento relativo */
+.x:after{
+	content: "⚔️";
+	font-size: 50px;
+	line-height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+
+}
